@@ -1,14 +1,14 @@
 
 package:
     name: boost
-    version: 1.56.0 [unix]
+    version: 1.62.0 [unix]
     version: 1.56.0 [win and py27]
     version: 1.56.0 [win and py34]
     version: 1.59.0 [win and py35]
 
 source:
-    fn: boost_1_56_0.tar.bz2 [unix]
-    url: http://sourceforge.net/projects/boost/files/boost/1.56.0/boost_1_56_0.tar.bz2 [unix]
+    fn: boost_1_62_0.tar.bz2 [unix]
+    url: http://sourceforge.net/projects/boost/files/boost/1.62.0/boost_1_62_0.tar.bz2 [unix]
     fn: boost_1_56_0.zip [win and py27]
     url: http://downloads.sourceforge.net/project/boost/boost/1.56.0/boost_1_56_0.zip [win and py27]
     fn: boost_1_56_0.zip [win and py34]
@@ -17,7 +17,7 @@ source:
     url: http://downloads.sourceforge.net/project/boost/boost/1.59.0/boost_1_59_0.zip [win and py35]
 
 build:
-    number: 3
+    number: 1
 
 requirements:
     build:
